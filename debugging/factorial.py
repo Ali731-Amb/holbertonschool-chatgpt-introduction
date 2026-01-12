@@ -10,10 +10,3 @@ def factorial(n):
 
 f = factorial(int(sys.argv[1]))
 print(f)
-
-if len(sys.argv) > 1:
-    nombre = int(sys.argv[1])
-    f = factorial(nombre)
-    print(f"Le résultat de {nombre}! est : {f}")
-else:
-    print("Erreur : Vous devez entrer un nombre (ex: python factorial.py 10)")
